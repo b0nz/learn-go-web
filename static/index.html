@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #f5f5f5;
+        min-height: 100vh;
+      }
+      .button {
+        padding: 8px 16px;
+        border-radius: 4px;
+        background-color: #1890ff;
+        color: #fff;
+        cursor: pointer;
+      }
+      .main {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <script>
+      function showAlert() {
+        alert("Hello World");
+      }
+    </script>
+  </head>
+  <body>
+    <main class="main">
+      <button class="button" onclick="showAlert()">show alert</button>
+    </main>
+  </body>
+</html>
